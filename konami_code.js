@@ -20,6 +20,7 @@ function init(e) {
     }
     if (index === codes.length) {
       alert("Congratulations! You've performed the Konami Code!");
+      index = 0;
     }
     else {
       index = 0;
